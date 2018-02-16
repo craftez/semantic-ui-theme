@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Semantic Theming</title>
+    <link rel="stylesheet" href="semantic/dist/semantic.min.css"/>
+</head>
+<body>
+
+<div class="ui container">
+
+    <h1>Theming Examples</h1>
+
+    <div class="">
+        <h4 class="ui header">
+            Button
+        </h4>
+        <div class="button demo">
+            <div class="ui button">
+                View
+            </div>
+            <div class="ui primary button">
+                <i class="shop icon"></i> Add to Cart
+            </div>
+            <div class="ui secondary button">
+                <i class="save icon"></i> Save for Later
+            </div>
+            <div class="ui labeled icon button">
+                <i class="star icon"></i>
+                Rate
+            </div>
+            <div class="ui basic button">Basic</div>
+
+            <div class="ui hidden divider"></div>
+
+            <div class="ui animated button">
+                <div class="visible content">Horizontal</div>
+                <div class="hidden content">
+                    Hidden
+                </div>
+            </div>
+            <div class="ui vertical animated button">
+                <div class="visible content">Vertical</div>
+                <div class="hidden content">
+                    Hidden
+                </div>
+            </div>
+            <div class="ui animated fade button">
+                <div class="visible content">Fade In</div>
+                <div class="hidden content">
+                    Hidden
+                </div>
+            </div>
+
+            <div class="ui hidden divider"></div>
+
+            <div class="ui facebook button">
+                <i class="facebook icon"></i>
+                Facebook
+            </div>
+            <div class="ui twitter button">
+                <i class="twitter icon"></i>
+                Twitter
+            </div>
+            <div class="ui google plus button">
+                <i class="google plus icon"></i>
+                Google Plus
+            </div>
+
+            <div class="ui hidden divider"></div>
+            <div class="ui buttons">
+                <div class="ui button">1</div>
+                <div class="ui button">2</div>
+                <div class="ui button">3</div>
+            </div>
+
+
+            <div class="ui buttons">
+                <div class="ui button">Cancel</div>
+                <div class="or"></div>
+                <div class="ui positive button">Save</div>
+            </div>
+
+            <div class="ui icon buttons">
+                <div class="ui button"><i class="align left icon"></i></div>
+                <div class="ui button"><i class="align center icon"></i></div>
+                <div class="ui button"><i class="align right icon"></i></div>
+                <div class="ui button"><i class="align justify icon"></i></div>
+            </div>
+            <div class="ui hidden divider"></div>
+            <div class="ui blue button">Blue</div>
+            <div class="ui red button">Red</div>
+            <div class="ui teal button">Teal</div>
+            <div class="ui blue basic button">Blue</div>
+            <div class="ui red basic button">Red</div>
+            <div class="ui teal basic button">Teal</div>
+
+            <div class="ui inverted segment">
+                <div class="ui inverted button">Inverted</div>
+                <div class="ui inverted blue button">Blue</div>
+                <div class="ui inverted red button">Red</div>
+                <div class="ui inverted basic button">Basic</div>
+                <div class="ui inverted blue basic button">Blue</div>
+                <div class="ui inverted red basic button">Red</div>
+                <div class="ui inverted yellow button">Primary</div>
+                <div class="ui inverted yellow basic button">Primary</div>
+            </div>
+
+            <div class="ui hidden divider"></div>
+
+            <div class="ui vertical buttons">
+                <div class="ui button">Feed</div>
+                <div class="ui button">Messages</div>
+                <div class="ui button">Events</div>
+                <div class="ui button">Photos</div>
+            </div>
+
+            <div class="ui vertical buttons">
+                <div class="ui button">1</div>
+                <div class="ui button">2</div>
+                <div class="ui button">3</div>
+            </div>
+
+            <div class="ui vertical icon buttons">
+                <div class="ui button"><i class="align left icon"></i></div>
+                <div class="ui button"><i class="align center icon"></i></div>
+                <div class="ui button"><i class="align right icon"></i></div>
+                <div class="ui button"><i class="align justify icon"></i></div>
+            </div>
+
+        </div>
+        <script type="text/javascript">
+            $('.button.demo .follow')
+                .state({
+                    text: {
+                        inactive: 'Follow',
+                        active: 'Following'
+                    }
+                })
+            ;
+        </script>
+    </div>
+
+
+    <div class="">
+        <h4 class="ui header">
+            Divider
+        </h4>
+        <div class="ui center aligned segment">
+            <div class="ui button">A</div>
+            <div class="ui horizontal divider">and</div>
+            <div class="teal ui button">B</div>
+        </div>
+        <div class="ui two column stackable center aligned grid segment">
+            <div class="column">
+                <div class="ui button">A</div>
+            </div>
+            <div class="ui vertical divider">or</div>
+            <div class="column">
+                <div class="teal ui button">B</div>
+            </div>
+        </div>
+        <div class="ui horizontal divider">
+            <i class="heart icon"></i>
+        </div>
+        <h5 class="ui horizontal header divider">
+            <i class="bar chart icon"></i>
+            Specifications
+        </h5>
+        <div class="ui inverted segment">
+            <p>A</p>
+            <div class="ui inverted divider"></div>
+            <p>B</p>
+        </div>
+    </div>
+
+
+    <div class="">
+        <h4 class="ui header">
+            Header
+        </h4>
+        <div class="ui two column grid">
+
+            <div class="column">
+                <h1 class="ui header">H1</h1>
+                <h2 class="ui header">H2</h2>
+                <h3 class="ui header">H3</h3>
+                <h4 class="ui header">H4</h4>
+                <h5 class="ui header">H5</h5>
+
+                <div class="ui icon header">
+                    <i class="settings icon"></i>
+                    <div class="content">
+                        Icon Header
+                        <div class="sub header">Sub-header</div>
+                    </div>
+                </div>
+
+                <div class="ui header">
+                    <i class="settings icon"></i>
+                    <div class="content">
+                        Header
+                        <div class="sub header">Sub-header</div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="ui block header">
+                    <i class="settings icon"></i>
+                    <div class="content">
+                        Block
+                        <div class="sub header">Sub-header</div>
+                    </div>
+                </div>
+
+                <div class="ui dividing header">
+                    <i class="settings icon"></i>
+                    <div class="content">
+                        Dividing
+                        <div class="sub header">Sub-header</div>
+                    </div>
+                </div>
+
+                <div class="ui teal dividing header">
+                    <i class="settings icon"></i>
+                    <div class="content">
+                        Color
+                        <div class="sub header">Sub-header</div>
+                    </div>
+                </div>
+
+                <div class="ui top attached header">Attached</div>
+                <div class="ui attached segment"></div>
+                <div class="ui bottom attached header">Attached</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <h4 class="ui header">
+            Image
+        </h4>
+        <img class="ui avatar image" src="https://semantic-ui.com/images/wireframe/square-image.png">
+        <div class="ui small images">
+            <img class="ui image" src="https://semantic-ui.com/images/wireframe/image.png">
+            <img class="ui image" src="https://semantic-ui.com/images/wireframe/image.png">
+            <img class="ui image" src="https://semantic-ui.com/images/wireframe/image.png">
+            <img class="ui image" src="https://semantic-ui.com/images/wireframe/image.png">
+        </div>
+        <img class="ui small circular image" src="https://semantic-ui.com/images/wireframe/square-image.png">
+    </div>
+
+    <div class="">
+        <h4 class="ui header">
+            Inputs
+        </h4>
+        <div class="ui action left icon input">
+            <i class="search icon"></i>
+            <input type="text" placeholder="Search...">
+            <div class="ui teal button">Search</div>
+        </div>
+        <div class="ui hidden divider"></div>
+        <div class="ui corner labeled input">
+            <input type="text" placeholder="Required Field">
+            <div class="ui corner label">
+                <i class="asterisk icon"></i>
+            </div>
+        </div>
+        <div class="ui hidden divider"></div>
+        <div class="ui labeled right icon input">
+            <div class="ui label">
+                http://
+            </div>
+            <input type="text" placeholder="domain.com">
+            <i class="add circle link icon"></i>
+        </div>
+        <div class="ui hidden divider"></div>
+        <div class="ui labeled input">
+            <a class="ui label">
+                Label
+            </a>
+            <input type="text" placeholder="Placeholder...">
+        </div>
+        <div class="ui hidden divider"></div>
+        <div class="ui right labeled input">
+            <input type="text" placeholder="Placeholder...">
+            <a class="ui label">
+                Label
+            </a>
+        </div>
+    </div>
+
+    <div class="">
+        <h4 class="ui header">
+            Label
+        </h4>
+        <div class="ui image label">
+            <img src="https://semantic-ui.com/images/avatar/small/justen.jpg">
+            email@address.com
+            <i class="delete icon"></i>
+        </div>
+        <a class="ui teal image label">
+            Some Name
+            <span class="detail">Group</span>
+        </a>
+        <a class="ui label">
+            <i class="mail icon"></i> Icon
+        </a>
+        <a class="ui tag label">Tag</a>
+        <div class="ui empty circular label"></div>
+        <div class="ui black empty circular label"></div>
+        <div class="ui teal empty circular label"></div>
+        <form class="ui fluid form">
+            <div class="two fields">
+                <div class="field">
+                    <input placeholder="First name" type="text">
+                    <div class="ui pointing label">
+                        Pointing Label
+                    </div>
+                </div>
+                <div class="field" placeholder="Last Name">
+                    <div class="ui pointing below label">
+                        Pointing below label
+                    </div>
+                    <input type="text">
+                </div>
+            </div>
+        </form>
+        <div class="ui hidden divider"></div>
+        <div class="ui two item menu">
+            <a class="item">
+                Item
+            </a>
+            <a class="item">
+                Item
+                <div class="floating ui teal label">141</div>
+            </a>
+        </div>
+        <div class="ui hidden divider"></div>
+        <div class="ui left floated tiny image">
+            <a class="ui left red corner label">
+                <i class="heart icon"></i>
+            </a>
+            <img src="https://semantic-ui.com/images/wireframe/square-image.png">
+        </div>
+        <div class="ui left floated tiny image">
+            <a class="ui left yellow corner label">
+                <i class="star icon"></i>
+            </a>
+            <img src="https://semantic-ui.com/images/wireframe/square-image.png">
+        </div>
+        <div class="ui left floated tiny image">
+            <a class="ui right corner label">
+                <i class="close icon"></i>
+            </a>
+            <img src="https://semantic-ui.com/images/wireframe/square-image.png">
+        </div>
+        <div class="ui hidden clearing divider"></div>
+        <div class="ui segment">
+            <div class="ui top attached label">Top Labeled</div>
+            <div class="ui bottom attached label">Bottom Labeled</div>
+        </div>
+        <div class="ui segment">
+            <div class="ui top left attached label">Top Left</div>
+            <div class="ui top right attached label">Top Right</div>
+            <div class="ui bottom left attached label">Bottom Left</div>
+            <div class="ui bottom right attached label">Bottom Right</div>
+        </div>
+        <div class="ui segment">
+            <a class="ui ribbon label">Ribbon</a>
+        </div>
+    </div>
+
+    <div class="">
+        <h4 class="ui header">
+            Lists
+        </h4>
+        <div class="ui two column relaxed stackable grid">
+            <div class="column">
+                <div class="ui list">
+                    <div class="item">
+                        <div class="ui top aligned avatar image">
+                            <img src="https://semantic-ui.com/images/wireframe/square-image.png">
+                        </div>
+                        <div class="content">
+                            <div class="header">Header</div>
+                            Description
+                            <div class="list">
+                                <div class="item">
+                                    <i class="right triangle icon"></i>
+                                    <div class="content">
+                                        <a class="header">Sub Header</a>
+                                        <div class="description">Sub Description</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <i class="right triangle icon"></i>
+                                    <div class="content">
+                                        <a class="header">Sub Header</a>
+                                        <div class="description">Sub Description</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="ui top aligned avatar image">
+                            <img src="https://semantic-ui.com/images/wireframe/square-image.png">
+                        </div>
+                        <div class="content">
+                            <div class="header">Header</div>
+                            Description
+                            <div class="list">
+                                <div class="item">
+                                    <i class="right triangle icon"></i>
+                                    <div class="content">
+                                        <a class="header">Sub Header</a>
+                                        <div class="description">Sub Description</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <i class="right triangle icon"></i>
+                                    <div class="content">
+                                        <a class="header">Sub Header</a>
+                                        <div class="description">Sub Description</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui divided very relaxed list">
+                    <div class="item">
+                        <i class="star icon"></i>
+                        <div class="content">
+                            <div class="header">Header</div>
+                            Description
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="star icon"></i>
+                        <div class="content">
+                            <div class="header">Header</div>
+                            Description
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="star icon"></i>
+                        <div class="content">
+                            <div class="header">Header</div>
+                            Description
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui divided very relaxed animated list">
+                    <div class="item">
+                        <div class="ui top aligned avatar image">
+                            <img src="https://semantic-ui.com/images/wireframe/square-image.png">
+                        </div>
+                        <div class="content">
+                            <div class="header">Header</div>
+                            Description
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="ui top aligned avatar image">
+                            <img src="https://semantic-ui.com/images/wireframe/square-image.png">
+                        </div>
+                        <div class="content">
+                            <div class="header">Header</div>
+                            Description
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="ui top aligned avatar image">
+                            <img src="https://semantic-ui.com/images/wireframe/square-image.png">
+                        </div>
+                        <div class="content">
+                            <div class="header">Header</div>
+                            Description
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="column">
+                <div class="ui bulleted link list">
+                    <a class="item">Link</a>
+                    <a class="item">Link</a>
+                    <a class="item">Link</a>
+                    <a class="item">Link</a>
+                    <a class="item">Link</a>
+                </div>
+
+                <div class="ui selection list">
+                    <a class="item">Selection</a>
+                    <a class="item">Selection</a>
+                    <a class="item">Selection</a>
+                    <a class="item">Selection</a>
+                    <a class="item">Selection</a>
+                </div>
+
+                <div class="ui bulleted list">
+                    <div class="item">
+                        <div class="content">
+                            <div class="header">Header</div>
+                            Description
+                        </div>
+                        <div class="list">
+                            <div class="item">
+                                Sub-header
+                            </div>
+                            <div class="item">
+                                Sub-header
+                            </div>
+                            <div class="item">
+                                Sub-header
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <div class="header">Header</div>
+                            Description
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <div class="header">Header</div>
+                            Description
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui ordered list">
+                    <a class="item">Getting Started</a>
+                    <a class="item">Introduction</a>
+                    <div class="item">
+                        <a>Languages</a>
+                        <div class="list">
+                            <a class="item">HTML</a>
+                            <a class="item">Javascript</a>
+                            <a class="item">CSS</a>
+                        </div>
+                    </div>
+                    <a class="item">Review</a>
+                </div>
+            </div>
+        </div>
+        <div class="ui hidden divider"></div>
+        <div class="ui horizontal list">
+            <div class="item">
+                <div class="ui top aligned avatar image">
+                    <img src="https://semantic-ui.com/images/wireframe/square-image.png">
+                </div>
+                <div class="content">
+                    <div class="header">Header</div>
+                    Description
+                </div>
+            </div>
+            <div class="item">
+                <div class="ui top aligned avatar image">
+                    <img src="https://semantic-ui.com/images/wireframe/square-image.png">
+                </div>
+                <div class="content">
+                    <div class="header">Header</div>
+                    Description
+                </div>
+            </div>
+            <div class="item">
+                <div class="ui top aligned avatar image">
+                    <img src="https://semantic-ui.com/images/wireframe/square-image.png">
+                </div>
+                <div class="content">
+                    <div class="header">Header</div>
+                    Description
+                </div>
+            </div>
+        </div>
+        <div class="ui hidden divider"></div>
+        <div class="ui divided relaxed horizontal list">
+            <div class="item">
+                <div class="ui top aligned avatar image">
+                    <img src="https://semantic-ui.com/images/wireframe/square-image.png">
+                </div>
+                <div class="content">
+                    <div class="header">Header</div>
+                    Description
+                </div>
+            </div>
+            <div class="item">
+                <div class="ui top aligned avatar image">
+                    <img src="https://semantic-ui.com/images/wireframe/square-image.png">
+                </div>
+                <div class="content">
+                    <div class="header">Header</div>
+                    Description
+                </div>
+            </div>
+            <div class="item">
+                <div class="ui top aligned avatar image">
+                    <img src="https://semantic-ui.com/images/wireframe/square-image.png">
+                </div>
+                <div class="content">
+                    <div class="header">Header</div>
+                    Description
+                </div>
+            </div>
+        </div>
+        <div class="ui hidden divider"></div>
+        <div class="ui ordered horizontal list">
+            <div class="item">
+                <img class="ui avatar image" src="https://semantic-ui.com/images/wireframe/square-image.png">
+                <div class="content">
+                    <div class="header">Steve Jobes</div>
+                    50 Points
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="https://semantic-ui.com/images/wireframe/square-image.png">
+                <div class="content">
+                    <div class="header">Stevie Feliciano</div>
+                    44 Points
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="https://semantic-ui.com/images/wireframe/square-image.png">
+                <div class="content">
+                    <div class="header">Jenny Hess</div>
+                    11 Points
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+
+          <h4 class="ui header">
+              Loader
+          </h4>
+            <div class="ui four column stackable doubling grid">
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active dimmer">
+                            <div class="ui mini loader"></div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active dimmer">
+                            <div class="ui small loader"></div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active dimmer">
+                            <div class="ui loader"></div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active dimmer">
+                            <div class="ui large loader"></div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="ui four column stackable doubling grid">
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active inverted dimmer">
+                            <div class="ui mini text loader">
+                                Loading
+                            </div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active inverted dimmer">
+                            <div class="ui small text loader">
+                                Loading
+                            </div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active inverted dimmer">
+                            <div class="ui text loader">
+                                Loading
+                            </div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active inverted dimmer">
+                            <div class="ui large text loader">
+                                Loading
+                            </div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="ui four column stackable doubling grid">
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active dimmer">
+                            <div class="ui mini loader"></div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active dimmer">
+                            <div class="ui small loader"></div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active dimmer">
+                            <div class="ui loader"></div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active dimmer">
+                            <div class="ui large loader"></div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="ui four column stackable doubling grid">
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active inverted dimmer">
+                            <div class="ui mini text loader">
+                                Loading
+                            </div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active inverted dimmer">
+                            <div class="ui small text loader">
+                                Loading
+                            </div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active inverted dimmer">
+                            <div class="ui text loader">
+                                Loading
+                            </div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <div class="ui active inverted dimmer">
+                            <div class="ui large text loader">
+                                Loading
+                            </div>
+                        </div>
+                        <br><br>
+                        <br><br>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="ui hidden clearing divider"></div>
+            <div class="ui segment">
+                <div class="ui active inverted dimmer">
+                    <div class="ui indeterminate text active loader">
+                        Preparing...
+                    </div>
+                </div>
+                <br><br>
+                <br><br>
+                <br><br>
+            </div>
+            <div class="ui segment">
+                <div class="ui active dimmer">
+                    <div class="ui indeterminate active loader"></div>
+                </div>
+                <br><br>
+                <br><br>
+                <br><br>
+            </div>
+    </div>
+
+    <div class="">
+        <h4 class="ui header">
+            Reveal
+        </h4>
+        <div class="ui slide down instant reveal">
+            <div class="visible content">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png" class="ui small bordered image">
+            </div>
+            <div class="hidden content">
+                <img src="https://semantic-ui.com/images/avatar/large/ade.jpg" class="ui small bordered image">
+            </div>
+        </div>
+        <div class="ui slide up instant reveal">
+            <div class="visible content">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png" class="ui small bordered image">
+            </div>
+            <div class="hidden content">
+                <img src="https://semantic-ui.com/images/avatar/large/chris.jpg" class="ui small bordered image">
+            </div>
+        </div>
+        <div class="ui slide left instant reveal">
+            <div class="visible content">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png" class="ui small bordered image">
+            </div>
+            <div class="hidden content">
+                <img src="https://semantic-ui.com/images/avatar/large/christian.jpg" class="ui small bordered image">
+            </div>
+        </div>
+        <div class="ui slide right instant reveal">
+            <div class="visible content">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png" class="ui small bordered image">
+            </div>
+            <div class="hidden content">
+                <img src="https://semantic-ui.com/images/avatar/large/daniel.jpg" class="ui small bordered image">
+            </div>
+        </div>
+        <div class="ui move down masked instant reveal">
+            <div class="visible content">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png" class="ui small bordered image">
+            </div>
+            <div class="hidden content">
+                <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg" class="ui small bordered image">
+            </div>
+        </div>
+        <div class="ui move up masked instant reveal">
+            <div class="visible content">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png" class="ui small bordered image">
+            </div>
+            <div class="hidden content">
+                <img src="https://semantic-ui.com/images/avatar/large/helen.jpg" class="ui small bordered image">
+            </div>
+        </div>
+        <div class="ui move left masked instant reveal">
+            <div class="visible content">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png" class="ui small bordered image">
+            </div>
+            <div class="hidden content">
+                <img src="https://semantic-ui.com/images/avatar/large/jenny.jpg" class="ui small bordered image">
+            </div>
+        </div>
+        <div class="ui move right masked instant reveal">
+            <div class="visible content">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png" class="ui small bordered image">
+            </div>
+            <div class="hidden content">
+                <img src="https://semantic-ui.com/images/avatar/large/joe.jpg" class="ui small bordered image">
+            </div>
+        </div>
+        <div class="ui rotate left reveal">
+            <div class="visible content">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png" class="ui small bordered circular image">
+            </div>
+            <div class="hidden content">
+                <img src="https://semantic-ui.com/images/avatar/large/justen.jpg" class="ui small bordered circular image">
+            </div>
+        </div>
+        <div class="ui rotate reveal">
+            <div class="visible content">
+                <img src="https://semantic-ui.com/images/wireframe/white-image.png" class="ui small bordered circular image">
+            </div>
+            <div class="hidden content">
+                <img src="https://semantic-ui.com/images/avatar/large/laura.jpg" class="ui small bordered circular image">
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <h4 class="ui header">
+            Segments
+        </h4>
+        <div class="ui piled segment"></div>
+        <div class="ui stacked segment"></div>
+        <div class="ui raised segment"></div>
+        <div class="ui secondary segment"></div>
+        <div class="ui tertiary segment"></div>
+        <div class="ui compact stacked segment"></div>
+        <div class="ui top attached segment"></div>
+        <div class="ui attached segment"></div>
+        <div class="ui bottom attached segment"></div>
+    </div>
+
+    <div class="">
+        <h4 class="ui header">
+            Step
+        </h4>
+        <div class="ui steps">
+            <a class="step">
+                <div class="content">
+                    <div class="title">Step</div>
+                    <div class="description">Description</div>
+                </div>
+            </a>
+            <a class="active step">
+                <div class="content">
+                    <div class="title">Step</div>
+                    <div class="description">Description</div>
+                </div>
+            </a>
+        </div>
+        <div class="ui hidden divider"></div>
+        <div class="ui ordered vertical steps">
+            <a class="step">
+                <div class="content">
+                    <div class="title">Previous Step</div>
+                    <div class="description">Description</div>
+                </div>
+            </a>
+            <a class="active step">
+                <div class="content">
+                    <div class="title">Active Step</div>
+                    <div class="description">Description</div>
+                </div>
+            </a>
+            <a class="disabled step">
+                <div class="content">
+                    <div class="title">Disabled Step</div>
+                    <div class="description">Description</div>
+                </div>
+            </a>
+        </div>
+        <div class="ui hidden divider"></div>
+        <div class="ui vertical steps">
+            <a class="completed step">
+                <i class="truck icon"></i>
+                <div class="content">
+                    <div class="title">Previous Step</div>
+                    <div class="description">Description</div>
+                </div>
+            </a>
+            <a class="active step">
+                <i class="payment icon"></i>
+                <div class="content">
+                    <div class="title">Active Step</div>
+                    <div class="description">Description</div>
+                </div>
+            </a>
+            <a class="disabled step">
+                <i class="info icon"></i>
+                <div class="content">
+                    <div class="title">Disabled Step</div>
+                    <div class="description">Description</div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

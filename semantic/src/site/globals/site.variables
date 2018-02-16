@@ -1,0 +1,17 @@
+/*******************************
+     User Global Variables
+*******************************/
+/*-------------------
+      Site Colors
+--------------------*/
+
+/*---  Colors  ---*/
+@yellow: #ffdd30;
+@gray: #F9F9F9;
+
+@primaryColor: @yellow;
+@secondaryColor: @black;
+
+@defaultBorderRadius: 0.2em;
+
+@lightPrimaryColor   : @black;

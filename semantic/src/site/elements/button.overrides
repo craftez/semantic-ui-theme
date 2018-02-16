@@ -1,0 +1,9 @@
+/*******************************
+         Site Overrides
+*******************************/
+.ui.primary.button {
+  color: #111111;
+}
+.ui.primary.button:hover {
+  color: #111111;
+}
